@@ -1,0 +1,101 @@
+﻿
+@{
+    ViewBag.Title = "Bestseller";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link href="~/Content/page.style/bestseller-stylesheet.css" rel="stylesheet" />
+
+    <!--Hero-->
+    <section id="hero">
+        <h1>Bestsellers</h1>
+        <p>Home / Bestsellers</p><br />
+        <p> Thanh xuân như một tách trà </p><br />
+        <p>Không săn sale sớm hết bà thanh xuân.</p><br />
+        <p>Những sản phẩm hot hit nhất của shop hiện tại</p>
+        <hr />
+    </section>
+
+    <!-- Container cho Sidebar và Product -->
+    <div class="shop-container">
+        <!-- Sidebar -->
+        <aside id="sidebar">
+            <ul class="sidebar-menu">
+                <li class="sidebar-item">
+                    <button class="sidebar-btn">Categories <i class="fa-solid fa-chevron-down"></i></button>
+                    <ul class="submenu">
+                        <li><a href="#">T-Shirts</a></li>
+                        <li><a href="#">Hoodies</a></li>
+                        <li><a href="#">Accessories</a></li>
+                    </ul>
+                </li>
+                <li class="sidebar-item">
+                    <button class="sidebar-btn">Availability <i class="fa-solid fa-chevron-down"></i></button>
+                    <ul class="submenu">
+                        <li><a href="#">In Stock</a></li>
+                        <li><a href="#">Out of Stock</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <!--product-->
+        <section id="product1">
+            <div class="pro-container">
+                <div class="pro">
+                    <img src="~/pictures/tshirt/binh-tan-back.jpg">
+                    <div class="des">
+                        <h5>Bình Tân Embroidered Polo Black</h5>
+                        <div class="produce-price">
+                            <span class="new-price"> 334.999₫</span>
+                            <span class="old-price">395.000₫</span>
+                            <span class="giamgia">-15%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pro">
+                    <img src="~/pictures/tshirt/ao-den-01-back.jpg">
+                    <div class="des">
+                        <h5>Striped Soccer Jersey Baby Blue White</h5>
+                        <div class="produce-price">
+                            <span class="new-price"> 299.900₫</span>
+                            <span class="old-price">395.000₫</span>
+                            <span class="giamgia">-25%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pro">
+                    <img src="~/pictures/tshirt/ao-den-01-font.jpg">
+                    <div class="des">
+                        <h5>Wild West Fade Relaxed Tan</h5>
+                        <div class="produce-price">
+                            <span class="new-price">276.999₫</span>
+                            <span class="old-price">395.000₫</span>
+                            <span class="giamgia">-30%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pro">
+                    <img src="~/pictures/tshirt/ao-trang-01-back.jpg">
+                    <div class="des">
+                        <h5>Hanoi Lover T-Shirt White</h5>
+                        <div class="produce-price">
+                            <span class="new-price"> 315.999₫</span>
+                            <span class="old-price">395.000₫</span>
+                            <span class="giamgia">-20%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!--Pagination-->
+    <section id="pagination" class="section-p1">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#"><i class="fa-solid fa-greater-than"></i></a>
+    </section>
+    <script src="~/Scripts/Bestseller.js/Bestseller.js"></script>
+

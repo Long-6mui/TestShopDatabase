@@ -1,0 +1,94 @@
+﻿
+@{
+    ViewBag.Title = "Collections";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/page.style/Collection-Stylesheet.css" rel="stylesheet" />
+
+    <!--Hero-->
+    <seaction id="hero">
+        <h1>Collection</h1>
+        <p>Home / Collection</p>
+        <hr />
+    </seaction>
+
+    <!-- Container cho Sidebar và Product -->
+    <div class="shop-container">
+        <!-- Sidebar -->
+        <aside id="sidebar">
+            <ul class="sidebar-menu">
+                <li class="sidebar-item">
+                    <button class="sidebar-btn">New<i class="fa-solid fa-chevron-down"></i></button>
+                    <ul class="submenu">
+                        <li><a href="#">T-Shirts</a></li>
+                        <li><a href="#">Jeans</a></li>
+                        <li><a href="#">Accessories</a></li>
+                    </ul>
+                </li>
+
+                <li class="sidebar-item">
+                    <button class="sidebar-btn">Product <i class="fa-solid fa-chevron-down"></i></button>
+                    <ul class="submenu">
+                        <li><a href="#">Display item</a></li>
+                        <li><a href="#">Best Sellers</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <!--product-->
+        <section id="product1">
+            <div class="pro-container">
+                <div class="pro">
+                    <img src="~/Content/Img/Tshirt/ao-trang-01-back.jpg">
+                    <div class="des">
+                        <h5> Plain White T-Shirt </h5>
+                        <h4>395.000₫</h4>
+                    </div>
+                </div>
+                <div class="pro">
+                    <img src="~/Content/Img/Tshirt/ao-trang-01-font.jpg">
+                    <div class="des">
+                        <h5> Patch In Heart T-Shirt White</h5>
+                        <h4>395.000₫</h4>
+                    </div>
+                </div>
+                <div class="pro">
+                    <img src="~/Content/Img/Tshirt/binh-tan-back.jpg">
+                    <div class="des">
+                        <h5>DirtyCoins Embroidered Polo Black</h5>
+                        <h4>395.000₫</h4>
+                    </div>
+                </div>
+                <div class="pro">
+                    <img src="~/Content/Img/Tshirt/black-polo-font.jpg">
+                    <div class="des">
+                        <h5> Polo Black</h5>
+                        <h4>395.000₫</h4>
+                    </div>
+                </div>
+                <div class="pro">
+                    <img src="~/Content/Img/Tshirt/cream-polo-font.jpg">
+                    <div class="des">
+                        <h5> Embroidery Chain Knit Polo Cream</h5>
+                        <h4>395.000₫</h4>
+                    </div>
+
+                </div>
+                
+            </div>
+        </section>
+    </div>
+    <br />
+
+    <!--Pagination-->
+    <seaction id="pagination" class="section-p1">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#"><i class="fa-solid fa-greater-than"></i></a>
+    </seaction>
+
+    <script src="~/Scripts/Collections.js/Collections.js"></script>
+
+

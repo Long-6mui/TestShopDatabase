@@ -1,0 +1,86 @@
+﻿@model IEnumerable<ShopOnline.Models.Product>
+
+@{
+    ViewBag.Title = "Shop";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link href="~/Content/page.style/Shop-StyleSheet.css" rel="stylesheet" />
+
+<section id="banner"></section>
+
+<section id="hero">
+    <h1>Products</h1>
+    <p>Home / Products</p>
+    <hr />
+</section>
+
+<div class="shop-container">
+    <!-- Sidebar -->
+    <aside id="sidebar">
+        <ul class="sidebar-menu">
+            <li class="sidebar-item">
+                <button class="sidebar-btn">Collections <i class="fa-solid fa-chevron-down"></i></button>
+                <ul class="submenu">
+                    @* --- Dùng DB để render danh mục --- *@
+                    @foreach (var cate in ViewBag.Categories)
+                    {
+                        var activeClass = (ViewBag.CurrentCategory == cate.IDCate) ? "active-category" : "";
+                        <li>
+                            <a class="@activeClass"
+                               href="@Url.Action("Shop", "TrangChu", new { idCate = cate.IDCate })">
+                                @cate.NameCate
+                            </a>
+                        </li>
+                    }
+                </ul>
+            </li>
+
+            <li class="sidebar-item">
+                <button class="sidebar-btn">Availability <i class="fa-solid fa-chevron-down"></i></button>
+                <ul class="submenu">
+                    <li><a href="#">In Stock</a></li>
+                    <li><a href="#">Out of Stock</a></li>
+                </ul>
+            </li>
+
+            <li class="sidebar-item">
+                <button class="sidebar-btn">Product <i class="fa-solid fa-chevron-down"></i></button>
+                <ul class="submenu">
+                    <li><a href="#">New Arrivals</a></li>
+                    <li><a href="#">Best Sellers</a></li>
+                </ul>
+            </li>
+        </ul>
+    </aside>
+
+    <!-- Product -->
+    <section id="product1">
+        <div class="pro-container">
+            @foreach (var item in Model)
+            {
+                <div class="pro">
+                    <a href="@Url.Action("DetailShop", "Detail", new { id = item.ProductID })">
+                        <img src="@Url.Content("~/pictures/tshirt/" + item.ImagePro)" alt="@item.NamePro" />
+                    </a>
+                    <div class="des">
+                        <h5>@item.NamePro</h5>
+                        <h4>@String.Format("{0:N0}₫", item.Price)</h4>
+                    </div>
+                </div>
+            }
+        </div>
+    </section>
+</div>
+
+<section id="pagination" class="section-p1">
+    <hr id="line" />
+    <div class="pages">
+        <a href="@Url.Action("Shop", "TrangChu")">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#"><i class="fa-solid fa-greater-than"></i></a>
+    </div>
+</section>
+
+<script src="~/Scripts/Shop.js/Shop.js"></script>

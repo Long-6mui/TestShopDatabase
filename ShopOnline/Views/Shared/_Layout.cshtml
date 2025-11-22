@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/page.style/home-StyleSheet.css" rel="stylesheet" />
+    <link href="~/Content/page.style/Login-Register.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="~/Content/page.style/Detail.css" rel="stylesheet" />
+    
+</head>
+
+<body>
+    <!--Header-->
+    <section id="header">
+        <div class="header-center-inner">
+            <!-- Left: social icons -->
+            <div class="header-left">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+            </div>
+
+            <!-- Center: logo -->
+            <div class="header-logo">
+                <a href="@Url.Action("Index", "TrangChu")">
+                    <img src="~/Pictures/Phoenix.png" class="logo" alt="Phoenix" width="100" height="100" />
+                </a>
+            </div>
+
+            <!-- Right: user & cart -->
+            <div class="header-right">
+                <div class="search-box">
+                    <input class="search-box-input" type="text" placeholder="Search..." />
+                    <button class="search-box-btn">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+
+                @{ var user = Session["Account"] as ShopOnline.Models.Customer; }
+
+                @if (user != null)
+                {
+                    <a href="" title="">
+                        <i class="fas fa-instagram"></i>
+                    </a>
+                }
+                else
+                {
+                    <a href="@Url.Action("Login","User")" title="Đăng nhập">
+                        <i class="fas fa-user"></i>
+                    </a>
+                }
+
+                <!-- Giỏ hàng -->
+
+
+                @if (user != null)
+                {
+
+                    <a href="@Url.Action("HienThiCart", "Cart")"><i class="fa-solid fa-bag-shopping"></i></a>
+                }
+                else
+                {
+                    <a href="@Url.Action("HienThiCart", "Cart")"><i class="fa-solid fa-bag-shopping"></i></a>
+
+
+                }
+                
+                
+
+            </div>
+        </div>
+
+        <!-- Navbar -->
+        <div>
+            <ul id="navbar">
+                <li><a href="@Url.Action("Index", "TrangChu")">HOME</a></li>
+
+                <!-- Dropdown Shop -->
+                <li class="dropdown">
+                    <a href="@Url.Action("Shop", "TrangChu")" class="no-underline">
+                        SHOP <i class="fa-solid fa-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="@Url.Action("Shop", "TrangChu", new { idCate = "TS" })">Áo thun</a></li>
+                        <li><a href="@Url.Action("Shop", "TrangChu", new { idCate = "JK" })">Áo khoác</a></li>
+                        <li><a href="@Url.Action("Shop", "TrangChu", new { idCate = "PT" })">Quần dài</a></li>
+                        <li><a href="@Url.Action("Shop", "TrangChu", new { idCate = "HD" })">Hoodie</a></li>
+                        <li><a href="@Url.Action("Shop", "TrangChu", new { idCate = "AC" })">Phụ kiện</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="@Url.Action("Bestseller", "TrangChu")">BESTSELLERS</a></li>
+                <li><a href="@Url.Action("Collections", "TrangChu")">COLLECTIONS</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Body -->
+    <div>
+        @RenderBody()
+    </div>
+
+    <br />
+    <!-- Footer -->
+    <div class="item-footer">
+        <i class="fa-solid fa-phone"></i> Hỗ Trợ / Mua hàng : 00112233
+    </div>
+
+    <div class="content-footer">
+        <div class="footer-left">
+            <h2>Hệ Thống Cửa Hàng</h2>
+            <p><i class="fa-solid fa-location-dot"></i> <b>Chi Nhánh Hồ Chí Minh</b></p>
+            <p><b>Phường Sài Gòn</b> - The New Playground, Tầng B1 Vincom Center Đồng Khởi, 72 Lê Thánh Tôn.</p>
+            <p><b>Phường An Lạc</b> - Tầng 1 TTTM Aeon Mall Bình Tân, số 1 đường số 17A.</p>
+            <p><b>Phường Long Bình</b> - Tầng 2 TTTM Vincom Mega Mall Grand Park.</p>
+            <p><b>Phường Hòa Hưng</b> - 561 Sư Vạn Hạnh.</p>
+            <p><b>Phường Cầu Ông Lãnh</b> - 160 Nguyễn Cư Trinh.</p>
+
+            <p><i class="fa-solid fa-location-dot"></i> <b>Chi Nhánh Đồng Nai</b></p>
+            <p><b>Phường Tam Hiệp</b> - 151A Phan Trung.</p>
+
+            <p><i class="fa-solid fa-location-dot"></i> <b>Chi Nhánh Cần Thơ</b></p>
+            <p><b>Phường Ninh Kiều</b> - 52 Mậu Thân.</p>
+
+            <p><i class="fa-solid fa-location-dot"></i> <b>Chi Nhánh Hà Nội</b></p>
+            <p><b>Phường Dương Nội</b> - Tầng 2 TTTM Aeon Mall Hà Đông.</p>
+
+            <p><i class="fa-solid fa-location-dot"></i> <b>Chi Nhánh Hải Phòng</b></p>
+            <p><b>Phường An Biên</b> - Tầng 2 Aeon Mall Hải Phòng Lê Chân, số 10 Võ Nguyên Giáp.</p>
+
+            <p><i class="fa-solid fa-phone"></i> 0933 800 190 - 1900252557</p>
+            <p><i class="fa-solid fa-envelope"></i> csteamdcs@gmail.com</p>
+        </div>
+
+        <div class="footer-right">
+            <h2>Mạng Xã Hội</h2>
+            <div class="social-icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+
+            <h2>Chính Sách</h2>
+            <ul>
+                <li>Chính sách bảo mật</li>
+                <li>FAQ</li>
+                <li>Chính sách Thẻ Thành viên</li>
+                <li>Chính sách Bảo hành & Đổi trả</li>
+                <li>Chính sách giao hàng hỏa tốc</li>
+            </ul>
+        </div>
+    </div>
+
+    <br />
+    <div>Copyright © 2023 Phoniex. Powered by DaiLoi</div>
+</body>
+</html>
