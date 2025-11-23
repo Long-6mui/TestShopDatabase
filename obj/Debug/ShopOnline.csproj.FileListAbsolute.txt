@@ -994,3 +994,37 @@ D:\Huflit_web\Last final\ShopOnline\ShopOnline\obj\Debug\ShopOnline.csproj.CoreC
 D:\Huflit_web\Last final\ShopOnline\ShopOnline\obj\Debug\ShopOnline.csproj.Up2Date
 D:\Huflit_web\Last final\ShopOnline\ShopOnline\obj\Debug\ShopOnline.dll
 D:\Huflit_web\Last final\ShopOnline\ShopOnline\obj\Debug\ShopOnline.pdb
+D:\Huflit_web\TestLastFinal2\bin\ShopOnline.dll.config
+D:\Huflit_web\TestLastFinal2\bin\ShopOnline.dll
+D:\Huflit_web\TestLastFinal2\bin\ShopOnline.pdb
+D:\Huflit_web\TestLastFinal2\bin\Antlr3.Runtime.dll
+D:\Huflit_web\TestLastFinal2\bin\EntityFramework.dll
+D:\Huflit_web\TestLastFinal2\bin\EntityFramework.SqlServer.dll
+D:\Huflit_web\TestLastFinal2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Huflit_web\TestLastFinal2\bin\Microsoft.Web.Infrastructure.dll
+D:\Huflit_web\TestLastFinal2\bin\Newtonsoft.Json.dll
+D:\Huflit_web\TestLastFinal2\bin\System.Web.Helpers.dll
+D:\Huflit_web\TestLastFinal2\bin\System.Web.Mvc.dll
+D:\Huflit_web\TestLastFinal2\bin\System.Web.Optimization.dll
+D:\Huflit_web\TestLastFinal2\bin\System.Web.Razor.dll
+D:\Huflit_web\TestLastFinal2\bin\System.Web.WebPages.Deployment.dll
+D:\Huflit_web\TestLastFinal2\bin\System.Web.WebPages.dll
+D:\Huflit_web\TestLastFinal2\bin\System.Web.WebPages.Razor.dll
+D:\Huflit_web\TestLastFinal2\bin\WebGrease.dll
+D:\Huflit_web\TestLastFinal2\bin\EntityFramework.xml
+D:\Huflit_web\TestLastFinal2\bin\EntityFramework.SqlServer.xml
+D:\Huflit_web\TestLastFinal2\bin\System.Web.Helpers.xml
+D:\Huflit_web\TestLastFinal2\bin\System.Web.Mvc.xml
+D:\Huflit_web\TestLastFinal2\bin\System.Web.Optimization.xml
+D:\Huflit_web\TestLastFinal2\bin\System.Web.Razor.xml
+D:\Huflit_web\TestLastFinal2\bin\System.Web.WebPages.xml
+D:\Huflit_web\TestLastFinal2\bin\System.Web.WebPages.Deployment.xml
+D:\Huflit_web\TestLastFinal2\bin\System.Web.WebPages.Razor.xml
+D:\Huflit_web\TestLastFinal2\bin\Newtonsoft.Json.xml
+D:\Huflit_web\TestLastFinal2\bin\Antlr3.Runtime.pdb
+D:\Huflit_web\TestLastFinal2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Huflit_web\TestLastFinal2\obj\Debug\ShopOnline.csproj.AssemblyReference.cache
+D:\Huflit_web\TestLastFinal2\obj\Debug\ShopOnline.csproj.CoreCompileInputs.cache
+D:\Huflit_web\TestLastFinal2\obj\Debug\ShopOnline.csproj.Up2Date
+D:\Huflit_web\TestLastFinal2\obj\Debug\ShopOnline.dll
+D:\Huflit_web\TestLastFinal2\obj\Debug\ShopOnline.pdb
