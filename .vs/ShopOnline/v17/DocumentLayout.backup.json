@@ -3,19 +3,19 @@
   "WorkspaceRootPath": "D:\\Huflit_web\\Last final\\ShopOnline\\ShopOnline\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{12515BD1-148D-481D-AF12-3564448DBBB8}|ShopOnline.csproj|D:\\Huflit_web\\Last final\\ShopOnline\\ShopOnline\\views\\trangchu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{12515BD1-148D-481D-AF12-3564448DBBB8}|ShopOnline.csproj|d:\\huflit_web\\last final\\shoponline\\shoponline\\views\\trangchu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{12515BD1-148D-481D-AF12-3564448DBBB8}|ShopOnline.csproj|solutionrelative:views\\trangchu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12515BD1-148D-481D-AF12-3564448DBBB8}|ShopOnline.csproj|d:\\huflit_web\\last final\\shoponline\\shoponline\\models\\dbentity.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "AbsoluteMoniker": "D:0:0:{12515BD1-148D-481D-AF12-3564448DBBB8}|ShopOnline.csproj|D:\\Huflit_web\\Last final\\ShopOnline\\ShopOnline\\models\\dbentity.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
       "RelativeMoniker": "D:0:0:{12515BD1-148D-481D-AF12-3564448DBBB8}|ShopOnline.csproj|solutionrelative:models\\dbentity.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12515BD1-148D-481D-AF12-3564448DBBB8}|ShopOnline.csproj|d:\\huflit_web\\last final\\shoponline\\shoponline\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{12515BD1-148D-481D-AF12-3564448DBBB8}|ShopOnline.csproj|D:\\Huflit_web\\Last final\\ShopOnline\\ShopOnline\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{12515BD1-148D-481D-AF12-3564448DBBB8}|ShopOnline.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12515BD1-148D-481D-AF12-3564448DBBB8}|ShopOnline.csproj|d:\\huflit_web\\last final\\shoponline\\shoponline\\views\\cart\\donhangcuaban.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{12515BD1-148D-481D-AF12-3564448DBBB8}|ShopOnline.csproj|D:\\Huflit_web\\Last final\\ShopOnline\\ShopOnline\\views\\cart\\donhangcuaban.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{12515BD1-148D-481D-AF12-3564448DBBB8}|ShopOnline.csproj|solutionrelative:views\\cart\\donhangcuaban.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
