@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Huflit_web\\TestLastFinal4\\",
+  "WorkspaceRootPath": "D:\\Huflit_web\\TestLastFinal5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{12515BD1-148D-481D-AF12-3564448DBBB8}|ShopOnline.csproj|d:\\huflit_web\\testlastfinal4\\views\\trangchu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{12515BD1-148D-481D-AF12-3564448DBBB8}|ShopOnline.csproj|solutionrelative:views\\trangchu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12515BD1-148D-481D-AF12-3564448DBBB8}|ShopOnline.csproj|D:\\Huflit_web\\TestLastFinal4\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{12515BD1-148D-481D-AF12-3564448DBBB8}|ShopOnline.csproj|D:\\Huflit_web\\TestLastFinal5\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{12515BD1-148D-481D-AF12-3564448DBBB8}|ShopOnline.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12515BD1-148D-481D-AF12-3564448DBBB8}|ShopOnline.csproj|D:\\Huflit_web\\TestLastFinal4\\models\\dbentity.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "AbsoluteMoniker": "D:0:0:{12515BD1-148D-481D-AF12-3564448DBBB8}|ShopOnline.csproj|d:\\huflit_web\\testlastfinal5\\views\\trangchu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12515BD1-148D-481D-AF12-3564448DBBB8}|ShopOnline.csproj|solutionrelative:views\\trangchu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12515BD1-148D-481D-AF12-3564448DBBB8}|ShopOnline.csproj|d:\\huflit_web\\testlastfinal5\\models\\dbentity.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
       "RelativeMoniker": "D:0:0:{12515BD1-148D-481D-AF12-3564448DBBB8}|ShopOnline.csproj|solutionrelative:models\\dbentity.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12515BD1-148D-481D-AF12-3564448DBBB8}|ShopOnline.csproj|D:\\Huflit_web\\TestLastFinal4\\views\\cart\\donhangcuaban.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{12515BD1-148D-481D-AF12-3564448DBBB8}|ShopOnline.csproj|D:\\Huflit_web\\TestLastFinal5\\views\\cart\\donhangcuaban.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{12515BD1-148D-481D-AF12-3564448DBBB8}|ShopOnline.csproj|solutionrelative:views\\cart\\donhangcuaban.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12515BD1-148D-481D-AF12-3564448DBBB8}|ShopOnline.csproj|D:\\Huflit_web\\TestLastFinal4\\controllers\\detailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{12515BD1-148D-481D-AF12-3564448DBBB8}|ShopOnline.csproj|D:\\Huflit_web\\TestLastFinal5\\controllers\\detailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12515BD1-148D-481D-AF12-3564448DBBB8}|ShopOnline.csproj|solutionrelative:controllers\\detailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12515BD1-148D-481D-AF12-3564448DBBB8}|ShopOnline.csproj|D:\\Huflit_web\\TestLastFinal4\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{12515BD1-148D-481D-AF12-3564448DBBB8}|ShopOnline.csproj|D:\\Huflit_web\\TestLastFinal5\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12515BD1-148D-481D-AF12-3564448DBBB8}|ShopOnline.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,76 +70,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Web.config",
-              "DocumentMoniker": "D:\\Huflit_web\\TestLastFinal4\\Web.config",
-              "RelativeDocumentMoniker": "Web.config",
-              "ToolTip": "D:\\Huflit_web\\TestLastFinal4\\Web.config",
-              "RelativeToolTip": "Web.config",
-              "ViewState": "AgIAADQAAAAAAAAAAAAcwFIAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-11-22T11:14:07.187Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "DBEntity.edmx [Diagram1]",
-              "DocumentMoniker": "D:\\Huflit_web\\TestLastFinal4\\Models\\DBEntity.edmx",
+              "DocumentMoniker": "D:\\Huflit_web\\TestLastFinal5\\Models\\DBEntity.edmx",
               "RelativeDocumentMoniker": "Models\\DBEntity.edmx",
-              "ToolTip": "D:\\Huflit_web\\TestLastFinal2\\Models\\DBEntity.edmx [Diagram1]",
-              "RelativeToolTip": "..\\TestLastFinal2\\Models\\DBEntity.edmx [Diagram1]",
+              "ToolTip": "D:\\Huflit_web\\TestLastFinal5\\Models\\DBEntity.edmx [Diagram1]",
+              "RelativeToolTip": "Models\\DBEntity.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2025-11-22T11:15:38.414Z"
+              "WhenOpened": "2025-11-23T06:55:52.59Z",
+              "EditorCaption": " [Diagram1]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DonHangCuaBan.cshtml",
-              "DocumentMoniker": "D:\\Huflit_web\\TestLastFinal4\\Views\\Cart\\DonHangCuaBan.cshtml",
-              "RelativeDocumentMoniker": "Views\\Cart\\DonHangCuaBan.cshtml",
-              "ToolTip": "D:\\Huflit_web\\TestLastFinal4\\Views\\Cart\\DonHangCuaBan.cshtml",
-              "RelativeToolTip": "Views\\Cart\\DonHangCuaBan.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADcAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T01:35:39.475Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DetailController.cs",
-              "DocumentMoniker": "D:\\Huflit_web\\TestLastFinal4\\Controllers\\DetailController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DetailController.cs",
-              "ToolTip": "D:\\Huflit_web\\TestLastFinal4\\Controllers\\DetailController.cs",
-              "RelativeToolTip": "Controllers\\DetailController.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAYwFAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T01:35:28.867Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Huflit_web\\TestLastFinal4\\Views\\TrangChu\\Index.cshtml",
+              "DocumentMoniker": "D:\\Huflit_web\\TestLastFinal5\\Views\\TrangChu\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\TrangChu\\Index.cshtml",
-              "ToolTip": "D:\\Huflit_web\\TestLastFinal4\\Views\\TrangChu\\Index.cshtml",
+              "ToolTip": "D:\\Huflit_web\\TestLastFinal5\\Views\\TrangChu\\Index.cshtml",
               "RelativeToolTip": "Views\\TrangChu\\Index.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-22T01:31:55.25Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\Huflit_web\\TestLastFinal5\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "D:\\Huflit_web\\TestLastFinal5\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwEoAAADgAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-11-22T11:14:07.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DonHangCuaBan.cshtml",
+              "DocumentMoniker": "D:\\Huflit_web\\TestLastFinal5\\Views\\Cart\\DonHangCuaBan.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cart\\DonHangCuaBan.cshtml",
+              "ToolTip": "D:\\Huflit_web\\TestLastFinal5\\Views\\Cart\\DonHangCuaBan.cshtml",
+              "RelativeToolTip": "Views\\Cart\\DonHangCuaBan.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADcAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-22T01:35:39.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DetailController.cs",
+              "DocumentMoniker": "D:\\Huflit_web\\TestLastFinal5\\Controllers\\DetailController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DetailController.cs",
+              "ToolTip": "D:\\Huflit_web\\TestLastFinal5\\Controllers\\DetailController.cs",
+              "RelativeToolTip": "Controllers\\DetailController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAYwFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T01:35:28.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
               "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\Huflit_web\\TestLastFinal4\\Controllers\\UserController.cs",
+              "DocumentMoniker": "D:\\Huflit_web\\TestLastFinal5\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "D:\\Huflit_web\\TestLastFinal4\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Huflit_web\\TestLastFinal5\\Controllers\\UserController.cs",
               "RelativeToolTip": "Controllers\\UserController.cs",
               "ViewState": "AgIAAI8AAAAAAAAAAAAswJsAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T01:35:16.554Z"
+              "WhenOpened": "2025-11-22T01:35:16.554Z",
+              "EditorCaption": ""
             }
           ]
         },
