@@ -77,8 +77,7 @@
               "ToolTip": "D:\\Huflit_web\\TestLastFinal2\\Models\\DBEntity.edmx [Diagram1]",
               "RelativeToolTip": "Models\\DBEntity.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2025-11-22T11:15:38.414Z",
-              "EditorCaption": " [Diagram1]"
+              "WhenOpened": "2025-11-22T11:15:38.414Z"
             },
             {
               "$type": "Document",
@@ -88,7 +87,7 @@
               "RelativeDocumentMoniker": "Web.config",
               "ToolTip": "D:\\Huflit_web\\TestLastFinal2\\Web.config",
               "RelativeToolTip": "Web.config",
-              "ViewState": "AgIAADQAAAAAAAAAAAAcwFEAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAcwFIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2025-11-22T11:14:07.187Z",
               "EditorCaption": ""
@@ -103,8 +102,7 @@
               "RelativeToolTip": "Views\\Cart\\DonHangCuaBan.cshtml",
               "ViewState": "AgIAACoAAAAAAAAAAAAAADcAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T01:35:39.475Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T01:35:39.475Z"
             },
             {
               "$type": "Document",
@@ -116,8 +114,7 @@
               "RelativeToolTip": "Controllers\\DetailController.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAAYwFAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T01:35:28.867Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T01:35:28.867Z"
             },
             {
               "$type": "Document",
@@ -129,8 +126,7 @@
               "RelativeToolTip": "Views\\TrangChu\\Index.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T01:31:55.25Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T01:31:55.25Z"
             },
             {
               "$type": "Document",
@@ -142,8 +138,7 @@
               "RelativeToolTip": "Controllers\\UserController.cs",
               "ViewState": "AgIAAI8AAAAAAAAAAAAswJsAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T01:35:16.554Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T01:35:16.554Z"
             }
           ]
         },
